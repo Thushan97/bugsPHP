@@ -2,8 +2,8 @@
 
 This repository contains PHP bug collection
 
-
-
+### Note
+Download the test repositories file [here](https://drive.google.com/file/d/1-5Lg6Yw3hc8ihkZ_ujSH7J-b9lwvIkSu/view?usp=share_link), and put it with main.py file
 ## Commands
 
 The command-line interface includes the following commands:
