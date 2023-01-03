@@ -1,4 +1,4 @@
-import myGit
+import myProject
 import os
 import subprocess as sp
 import sys
@@ -37,7 +37,7 @@ def install_php(bug):
 
 def install(param_dict):
     SCRIPTDIR = os.path.abspath(os.path.dirname(sys.argv[0]))
-    bug_info = myGit.get_bug_info(param_dict)
+    bug_info = myProject.get_bug_info(param_dict)
 
     if not os.path.isdir(os.path.join(param_dict['output'], bug_info['repo_name'])):
         print("can't find the project folder")
@@ -63,7 +63,7 @@ def install(param_dict):
 
 def run_all_test(param_dict):
     SCRIPTDIR = os.path.abspath(os.path.dirname(sys.argv[0]))
-    bug_info = myGit.get_bug_info(param_dict)
+    bug_info = myProject.get_bug_info(param_dict)
 
     if(not os.path.isdir(os.path.join(param_dict['output'], bug_info['repo_name']))):
         print("can't find the project folder")
@@ -86,7 +86,7 @@ def run_all_test(param_dict):
 
 def run_test_only_changed_test_files(param_dict):
     SCRIPTDIR = os.path.abspath(os.path.dirname(sys.argv[0]))
-    bug_info = myGit.get_bug_info(param_dict)
+    bug_info = myProject.get_bug_info(param_dict)
 
     if(not os.path.isdir(os.path.join(param_dict['output'], bug_info['repo_name']))):
         print("can't find the project folder")
@@ -111,7 +111,7 @@ def run_test_only_changed_test_files(param_dict):
 
 def run_test_file(param_dict):
     SCRIPTDIR = os.path.abspath(os.path.dirname(sys.argv[0]))
-    bug_info = myGit.get_bug_info(param_dict)
+    bug_info = myProject.get_bug_info(param_dict)
 
     if(not os.path.isdir(os.path.join(param_dict['output'], bug_info['repo_name']))):
         print("can't find the project folder")
