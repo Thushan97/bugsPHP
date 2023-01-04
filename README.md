@@ -4,18 +4,18 @@ This repository contains PHP bug collection
 
 The projects
 ---------------
-bugsPHP contains 653 bugs from the following open-source projects:
+bugsPHP contains 640 bugs from the following open-source projects:
 
 | **Project name**        | **Number of bugs** |
 |-------------------------|--------------------|
 | doctrine--orm           |                  1 |
 | doctrine--dbal          |                  1 |
 | Seldaek--monolog        |                  3 |
-| composer--composer      |                 29 |
+| composer--composer      |                 28 |
 | briannesbitt--Carbon    |                  6 |
 | laravel--framework      |                  2 |
 | egulias--EmailValidator |                  1 |
-| vimeo--psalm            |                610 |
+| vimeo--psalm            |                598 |
 ### Note
 Download the test repositories file [here](https://drive.google.com/file/d/1-5Lg6Yw3hc8ihkZ_ujSH7J-b9lwvIkSu/view?usp=share_link), and put it with main.py file
 ## Commands
