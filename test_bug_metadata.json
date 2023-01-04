@@ -718,51 +718,6 @@
         "owner": "composer",
         "repo_name": "composer",
         "repo_full_name": "composer/composer",
-        "bug_no": 9,
-        "buggy_commit_id": "6a869ede77d4d79b7743234b907124185c385763",
-        "fixed_commit_id": "902174d2a7b7fb6a0c15f3a743767876f276483c",
-        "bug_with_test_commit_id": "45eb9fdd8d002a3048ebc7b975da03a5e021c04a",
-        "test_file_paths": [
-            "tests/Composer/Test/Repository/ComposerRepositoryTest.php"
-        ],
-        "is_valid": true,
-        "test_script": {
-            "buggy": "test",
-            "bug_with_test": "test",
-            "fixed": "test"
-        },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": { "status": null } },
-            "bug_with_test": {
-                "all": { "status": null },
-                "test_file": [{ "status": null }]
-            },
-            "fixed": {
-                "all": { "status": null },
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (10 tests, 17 assertions)",
-                        "tests": "10",
-                        "assertions": "17"
-                    }
-                ]
-            }
-        },
-        "issue_id": "9680",
-        "issue_url": "https://github.com/composer/composer/issues/9680",
-        "commit_url": "https://github.com/composer/composer/commit/902174d2a7b7fb6a0c15f3a743767876f276483c",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/composer/composer",
-        "version": { "php": "7.4", "composer": "2.5.1" }
-    },
-    {
-        "repo_id": 1864363,
-        "owner": "composer",
-        "repo_name": "composer",
-        "repo_full_name": "composer/composer",
         "bug_no": 10,
         "buggy_commit_id": "f82a88870468d9b28f66e19d7675cc3687655d9f",
         "fixed_commit_id": "b021647e6f2aac37cb1ab7cccbc5d7e3fae2a001",
@@ -2731,54 +2686,6 @@
         "num_of_file_changes": "2",
         "num_of_test_file_changes": "1",
         "repo_url": "https://github.com/vimeo/psalm",
-        "version": { "php": "7.4", "composer": "2.5.1" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
-        "bug_no": 12,
-        "buggy_commit_id": "e93b37a2253f63b981c13694c8fb9c2e6a5bc7f4",
-        "fixed_commit_id": "f2bc6913db800621ec76880409e1ce23897cf1af",
-        "bug_with_test_commit_id": "e2604db3e9e64f0a767c647704672251cf91a237",
-        "test_file_paths": ["tests/UnusedVariableTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 256, Assertions: 154, Errors: 1, Skipped: 1.",
-                        "tests": 256,
-                        "assertions": 154,
-                        "errors": 1,
-                        "skipped": 1
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK, but incomplete, skipped, or risky tests!",
-                        "incomplete": "but"
-                    }
-                ]
-            }
-        },
-        "issue_id": "6061",
-        "issue_url": "https://github.com/vimeo/psalm/issues/6061",
-        "commit_url": "https://github.com/vimeo/psalm/commit/f2bc6913db800621ec76880409e1ce23897cf1af",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "php_version": "^7.1|^8",
         "version": { "php": "7.4", "composer": "2.5.1" }
     },
     {
@@ -8680,53 +8587,6 @@
         "owner": "vimeo",
         "repo_name": "psalm",
         "repo_full_name": "vimeo/psalm",
-        "bug_no": 145,
-        "buggy_commit_id": "c42dadaf0d4cb78a25c6c695191efa864a9364cf",
-        "fixed_commit_id": "c95ebfeb21eedade5f17203918bf96033657d8ed",
-        "bug_with_test_commit_id": "55e142fb48ac5753b2e8d718f6cf227f9b8a50f1",
-        "test_file_paths": ["tests/MethodCallTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 93, Assertions: 126, Errors: 1, Skipped: 1.",
-                        "tests": 93,
-                        "assertions": 126,
-                        "errors": 1,
-                        "skipped": 1
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK, but incomplete, skipped, or risky tests!",
-                        "incomplete": "but"
-                    }
-                ]
-            }
-        },
-        "issue_id": "3694",
-        "issue_url": "https://github.com/vimeo/psalm/issues/3694",
-        "commit_url": "https://github.com/vimeo/psalm/commit/c95ebfeb21eedade5f17203918bf96033657d8ed",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "version": { "php": "7.4", "composer": "2.5.1" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
         "bug_no": 146,
         "buggy_commit_id": "9e7650586b0b99373c2d2fd3964c2b9352819f59",
         "fixed_commit_id": "9837a608538a3e2737c00211565bb1580531b9a5",
@@ -9676,53 +9536,6 @@
         "issue_id": "3506",
         "issue_url": "https://github.com/vimeo/psalm/issues/3506",
         "commit_url": "https://github.com/vimeo/psalm/commit/4d149de764a4980c8c20e5d7ae83de9e5cb41510",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "version": { "php": "7.4", "composer": "2.5.1" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
-        "bug_no": 168,
-        "buggy_commit_id": "86b894eca53d9159da410ccb9db2bc745e3720bf",
-        "fixed_commit_id": "be8fd3ea19eb02af87a31b5c074a026ab5fafb8c",
-        "bug_with_test_commit_id": "cef774d96fc87b31f4277fb896f56fdf96bb18be",
-        "test_file_paths": ["tests/Template/ClassTemplateExtendsTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 159, Assertions: 199, Errors: 1.",
-                        "tests": 159,
-                        "assertions": 199,
-                        "errors": 1
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (159 tests, 200 assertions)",
-                        "tests": "159",
-                        "assertions": "200"
-                    }
-                ]
-            }
-        },
-        "issue_id": "3481",
-        "issue_url": "https://github.com/vimeo/psalm/issues/3481",
-        "commit_url": "https://github.com/vimeo/psalm/commit/be8fd3ea19eb02af87a31b5c074a026ab5fafb8c",
         "num_of_file_changes": "1",
         "num_of_test_file_changes": "1",
         "repo_url": "https://github.com/vimeo/psalm",
@@ -12157,53 +11970,6 @@
         "owner": "vimeo",
         "repo_name": "psalm",
         "repo_full_name": "vimeo/psalm",
-        "bug_no": 222,
-        "buggy_commit_id": "f7907eb43f2f5e85b18aa422fa3d034f12c2391a",
-        "fixed_commit_id": "cbf139952c6f0ba2848f875d4ed95589455fe2f9",
-        "bug_with_test_commit_id": "425503345e70d748f21e46f0e0da33591ba0dfcb",
-        "test_file_paths": ["tests/MixinAnnotationTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 3, Assertions: 2, Errors: 1.",
-                        "tests": 3,
-                        "assertions": 2,
-                        "errors": 1
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (3 tests, 3 assertions)",
-                        "tests": "3",
-                        "assertions": "3"
-                    }
-                ]
-            }
-        },
-        "issue_id": "2989",
-        "issue_url": "https://github.com/vimeo/psalm/issues/2989",
-        "commit_url": "https://github.com/vimeo/psalm/commit/cbf139952c6f0ba2848f875d4ed95589455fe2f9",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "version": { "php": "7.4", "composer": "2.5.1" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
         "bug_no": 223,
         "buggy_commit_id": "48af534270d140b7eba3fd211a0a3bb6a7896f32",
         "fixed_commit_id": "311bd19a6a61dd609092c530b233a3c37752e12c",
@@ -12626,54 +12392,6 @@
         "issue_url": "https://github.com/vimeo/psalm/issues/2914",
         "commit_url": "https://github.com/vimeo/psalm/commit/60fb3924bc584d19d13a5545115dba45e83824eb",
         "num_of_file_changes": "2",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "php_version": "^7.1.3|^8",
-        "version": { "php": "7.1", "composer": "1.10.26" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
-        "bug_no": 232,
-        "buggy_commit_id": "40a7a1156f6cf3dc2f409c03244185ae5746eb43",
-        "fixed_commit_id": "a0da7356e94f1eaf7270af03a8559fb6aebd643f",
-        "bug_with_test_commit_id": "1ec1fc7f546c1976c21160ba0fcf8549d14a393b",
-        "test_file_paths": ["tests/Template/ClassTemplateTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 97, Assertions: 111, Errors: 1, Skipped: 3.",
-                        "tests": 97,
-                        "assertions": 111,
-                        "errors": 1,
-                        "skipped": 3
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK, but incomplete, skipped, or risky tests!",
-                        "incomplete": "but"
-                    }
-                ]
-            }
-        },
-        "issue_id": "2935",
-        "issue_url": "https://github.com/vimeo/psalm/issues/2935",
-        "commit_url": "https://github.com/vimeo/psalm/commit/a0da7356e94f1eaf7270af03a8559fb6aebd643f",
-        "num_of_file_changes": "1",
         "num_of_test_file_changes": "1",
         "repo_url": "https://github.com/vimeo/psalm",
         "php_version": "^7.1.3|^8",
@@ -15396,54 +15114,6 @@
         "owner": "vimeo",
         "repo_name": "psalm",
         "repo_full_name": "vimeo/psalm",
-        "bug_no": 290,
-        "buggy_commit_id": "1b4bda4e0857bfdc45a93173f6134d231a67b866",
-        "fixed_commit_id": "4021d673bd16965c8ef175a78babece80daf1e76",
-        "bug_with_test_commit_id": "742a412cb56cd392b7c3f960afe07a9bbaa561c6",
-        "test_file_paths": ["tests/TypeReconciliation/ConditionalTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 212, Assertions: 241, Errors: 2, Skipped: 5.",
-                        "tests": 212,
-                        "assertions": 241,
-                        "errors": 2,
-                        "skipped": 5
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK, but incomplete, skipped, or risky tests!",
-                        "incomplete": "but"
-                    }
-                ]
-            }
-        },
-        "issue_id": "2536",
-        "issue_url": "https://github.com/vimeo/psalm/issues/2536",
-        "commit_url": "https://github.com/vimeo/psalm/commit/4021d673bd16965c8ef175a78babece80daf1e76",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "php_version": "^7.1.3",
-        "version": { "php": "7.1", "composer": "1.10.26" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
         "bug_no": 291,
         "buggy_commit_id": "02fd1659ef74a41e6c4a7dcbf52df60fe43862ea",
         "fixed_commit_id": "87fec3e6fe0641e5b337110e0d4b37e82893f429",
@@ -16068,54 +15738,6 @@
         "owner": "vimeo",
         "repo_name": "psalm",
         "repo_full_name": "vimeo/psalm",
-        "bug_no": 304,
-        "buggy_commit_id": "6ff312fe13828535291c0f44b956f110caa20b43",
-        "fixed_commit_id": "ca5f8fabdc07bf1b5a0f54dc7b5c1c3f1bab663d",
-        "bug_with_test_commit_id": "f6ac2e5b3e021a6575708596d261c84dc283b7bf",
-        "test_file_paths": ["tests/TypeReconciliation/IssetTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 58, Assertions: 63, Failures: 1.",
-                        "tests": 58,
-                        "assertions": 63,
-                        "failures": 1
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (58 tests, 63 assertions)",
-                        "tests": "58",
-                        "assertions": "63"
-                    }
-                ]
-            }
-        },
-        "issue_id": "2464",
-        "issue_url": "https://github.com/vimeo/psalm/issues/2464",
-        "commit_url": "https://github.com/vimeo/psalm/commit/ca5f8fabdc07bf1b5a0f54dc7b5c1c3f1bab663d",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "php_version": "^7.1.3",
-        "version": { "php": "7.1", "composer": "1.10.26" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
         "bug_no": 305,
         "buggy_commit_id": "05783eb61617251ad6d381bcd74d0268cefd1bdd",
         "fixed_commit_id": "8f25183784fd036bc634df34d1d3fcf32e389b45",
@@ -16639,54 +16261,6 @@
         "issue_id": "2384",
         "issue_url": "https://github.com/vimeo/psalm/issues/2384",
         "commit_url": "https://github.com/vimeo/psalm/commit/f21150b8ad52bf2b400b4d09876aec5ef8db0bbb",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "php_version": "^7.1.3",
-        "version": { "php": "7.1", "composer": "1.10.26" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
-        "bug_no": 316,
-        "buggy_commit_id": "e2d1eca2b4e8dae4b9d0fd942a46b84ab48dfc18",
-        "fixed_commit_id": "a4e18f9b5ee9e47e257b49c440b7586ccada02c1",
-        "bug_with_test_commit_id": "f694a348df2967041ba14d564fa4ba0d560a5494",
-        "test_file_paths": ["tests/Template/ClassTemplateCovarianceTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 14, Assertions: 17, Failures: 1.",
-                        "tests": 14,
-                        "assertions": 17,
-                        "failures": 1
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (14 tests, 18 assertions)",
-                        "tests": "14",
-                        "assertions": "18"
-                    }
-                ]
-            }
-        },
-        "issue_id": "2386",
-        "issue_url": "https://github.com/vimeo/psalm/issues/2386",
-        "commit_url": "https://github.com/vimeo/psalm/commit/a4e18f9b5ee9e47e257b49c440b7586ccada02c1",
         "num_of_file_changes": "1",
         "num_of_test_file_changes": "1",
         "repo_url": "https://github.com/vimeo/psalm",
@@ -20220,42 +19794,6 @@
         "owner": "vimeo",
         "repo_name": "psalm",
         "repo_full_name": "vimeo/psalm",
-        "bug_no": 390,
-        "buggy_commit_id": "8cb5d012d9302388bb023806922b70af7e0c378f",
-        "fixed_commit_id": "2f400381a5f86d7319c2802f2f248bffd7aae1ff",
-        "bug_with_test_commit_id": "b5b2d15f83c2dcbbc6f49655e5979ce93858eb47",
-        "test_file_paths": ["tests/FileUpdates/TemporaryUpdateTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": { "all": {}, "test_file": [{ "status": null }] },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (29 tests, 101 assertions)",
-                        "tests": "29",
-                        "assertions": "101"
-                    }
-                ]
-            }
-        },
-        "issue_id": "1973",
-        "issue_url": "https://github.com/vimeo/psalm/issues/1973",
-        "commit_url": "https://github.com/vimeo/psalm/commit/2f400381a5f86d7319c2802f2f248bffd7aae1ff",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "version": { "php": "7.4", "composer": "2.5.1" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
         "bug_no": 391,
         "buggy_commit_id": "59dd6393f51bfa21cb9ffb2f95fc45bf9296d7bf",
         "fixed_commit_id": "ab50c6ce2e3c0c610714de0f05476f61e22260f7",
@@ -20856,42 +20394,6 @@
         "repo_url": "https://github.com/vimeo/psalm",
         "php_version": "^7.1",
         "version": { "php": "7.1", "composer": "1.10.26" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
-        "bug_no": 403,
-        "buggy_commit_id": "ec104be6e2651598d0adb44e593c1c283b381a57",
-        "fixed_commit_id": "473595582970a29a3770e2fed18b835a003ec685",
-        "bug_with_test_commit_id": "6cea0ef2ae63fe4e383144ac3a2ee19b85d20b20",
-        "test_file_paths": ["tests/LanguageServer/SymbolLookupTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": { "all": {}, "test_file": [{ "status": null }] },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (4 tests, 26 assertions)",
-                        "tests": "4",
-                        "assertions": "26"
-                    }
-                ]
-            }
-        },
-        "issue_id": "1835",
-        "issue_url": "https://github.com/vimeo/psalm/issues/1835",
-        "commit_url": "https://github.com/vimeo/psalm/commit/473595582970a29a3770e2fed18b835a003ec685",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "version": { "php": "7.4", "composer": "2.5.1" }
     },
     {
         "repo_id": 74386167,
@@ -24368,54 +23870,6 @@
         "owner": "vimeo",
         "repo_name": "psalm",
         "repo_full_name": "vimeo/psalm",
-        "bug_no": 477,
-        "buggy_commit_id": "17541b415fb164cee528f76092beb6ff47c3a45a",
-        "fixed_commit_id": "c383e61805553e7c3f79b0c1316cbf45f4735c0d",
-        "bug_with_test_commit_id": "59f3b1f482da58e257e16ac4331d6fdbacfa00cd",
-        "test_file_paths": ["tests/FunctionCallTest.php"],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 160, Assertions: 205, Errors: 1.",
-                        "tests": 160,
-                        "assertions": 205,
-                        "errors": 1
-                    }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (160 tests, 206 assertions)",
-                        "tests": "160",
-                        "assertions": "206"
-                    }
-                ]
-            }
-        },
-        "issue_id": "1296",
-        "issue_url": "https://github.com/vimeo/psalm/issues/1296",
-        "commit_url": "https://github.com/vimeo/psalm/commit/c383e61805553e7c3f79b0c1316cbf45f4735c0d",
-        "num_of_file_changes": "1",
-        "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "php_version": "^7.0",
-        "version": { "php": "7.2", "composer": "1.10.26" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
         "bug_no": 478,
         "buggy_commit_id": "020430c66fbdc39ddb8abda3d0ccd00bec664ce3",
         "fixed_commit_id": "d45326759fd3a713d7ddb815145f6164a20e437b",
@@ -24684,71 +24138,6 @@
         "commit_url": "https://github.com/vimeo/psalm/commit/bfb2a5c19e7860d3acae345c1c32cff0991dcc56",
         "num_of_file_changes": "2",
         "num_of_test_file_changes": "1",
-        "repo_url": "https://github.com/vimeo/psalm",
-        "php_version": "^7.0",
-        "version": { "php": "7.2", "composer": "1.10.26" }
-    },
-    {
-        "repo_id": 74386167,
-        "owner": "vimeo",
-        "repo_name": "psalm",
-        "repo_full_name": "vimeo/psalm",
-        "bug_no": 484,
-        "buggy_commit_id": "21d383d6c6eb91c25ff68478ff583f790c0e05ad",
-        "fixed_commit_id": "509709d6bc565d65e5e848c75686b07e24446eac",
-        "bug_with_test_commit_id": "0334beb421e221771ee497590c7c1095ab44371a",
-        "test_file_paths": [
-            "tests/CallableTest.php",
-            "tests/MethodCallTest.php",
-            "tests/PropertyTypeTest.php"
-        ],
-        "is_valid": true,
-        "test_script": { "buggy": null, "bug_with_test": null, "fixed": null },
-        "test_folder": "tests",
-        "test_results": {
-            "buggy": { "all": {} },
-            "bug_with_test": {
-                "all": {},
-                "test_file": [
-                    { "status": null },
-                    {
-                        "status": "FAILED",
-                        "description": "Tests: 46, Assertions: 67, Errors: 1.",
-                        "tests": 46,
-                        "assertions": 67,
-                        "errors": 1
-                    },
-                    { "status": null }
-                ]
-            },
-            "fixed": {
-                "all": {},
-                "test_file": [
-                    {
-                        "status": "OK",
-                        "description": "OK (77 tests, 110 assertions)",
-                        "tests": "77",
-                        "assertions": "110"
-                    },
-                    {
-                        "status": "OK",
-                        "description": "OK (46 tests, 68 assertions)",
-                        "tests": "46",
-                        "assertions": "68"
-                    },
-                    {
-                        "status": "OK",
-                        "description": "OK, but incomplete, skipped, or risky tests!",
-                        "incomplete": "but"
-                    }
-                ]
-            }
-        },
-        "issue_id": "1267",
-        "issue_url": "https://github.com/vimeo/psalm/issues/1267",
-        "commit_url": "https://github.com/vimeo/psalm/commit/509709d6bc565d65e5e848c75686b07e24446eac",
-        "num_of_file_changes": "2",
-        "num_of_test_file_changes": "3",
         "repo_url": "https://github.com/vimeo/psalm",
         "php_version": "^7.0",
         "version": { "php": "7.2", "composer": "1.10.26" }
